@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, render_template, request, send_file
 from PIL import Image
 from pdf2image import convert_from_path
@@ -88,7 +87,7 @@ def clear_files():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
-=======
+
 from flask import Flask, render_template, request, send_file
 from PIL import Image
 from pdf2image import convert_from_path
@@ -178,4 +177,4 @@ def clear_files():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
->>>>>>> eacc51d4a64a7e802dddea220ef63b7fae380034
+

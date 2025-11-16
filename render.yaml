@@ -2,11 +2,6 @@ services:
   - type: web
     name: convhub-web
     env: python
-<<<<<<< HEAD
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn Kone:app
     plan: free
-=======
-    buildCommand: ""
-    startCommand: "gunicorn Kone:app"
->>>>>>> 707890990aceeead49e0900d4628e109bd8f279b

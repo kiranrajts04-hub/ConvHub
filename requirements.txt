@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 Flask>=2.2.0
 Werkzeug<2.1.0
 gunicorn
 Pillow
-=======
-Flask==2.2.5
-Werkzeug==2.2.3
-gunicorn==21.2.0
->>>>>>> 707890990aceeead49e0900d4628e109bd8f279b

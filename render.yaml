@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: ConvHub
     env: python
     buildCommand: ""
     startCommand: "gunicorn Kone:app"
+=======
+services:
+  - type: web
+    name: ConvHub
+    env: python
+    buildCommand: ""
+    startCommand: "gunicorn Kone:app"
+>>>>>>> eacc51d4a64a7e802dddea220ef63b7fae380034
